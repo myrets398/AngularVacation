@@ -6,7 +6,7 @@ I know...We're doing another one, but trust me, it's the last vacation we will e
 ##Purpose
 The purpose of this day project is practice setting up an HTML/CSS Site and manipulating the DOM by use of Angular custom directives with the use of the link function. The student will get an opportunity to slide, fadeIn, hide, and append components through the use of event listeners.
 
-##Directions
+
 * Fork and clone this repository.
 
 * Take some time to look over this terrible looking vacation site. Notice that there are several places of opportunity for the use of DOM Manipulation. The menu button, the scam button, the list of links, the arrows for sliding the images, and even the images themselves offer opportunity to play around with Angular.

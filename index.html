@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="JavaScript_DOM_Manipulation_Practice">
   <head>
     <meta charset="utf-8">
+
     <title>JavaScript DOM Manipulation Practice</title>
-    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href= "styles.css">
+
+      <link href='https://fonts.googleapis.com/css?family=Oswald' rel="stylesheet" type="text/css">
+
     <script src="https://use.fontawesome.com/b4ccb25300.js"></script>
+
   </head>
-  <body>
+  <body ng-controller="mainCtrl">
+<dom-dir>domDir.js</dom-dir>
     <div class="container">
       <div class="headtext">
         <h1>Vacation Destinations of the World</h1>
-        <button class="scam" type="button">CLICK HERE</button>
-        <i class="fa fa-bars fa-2x menu"></i>
+        <menu ng-click class="menu">
+          <ul>Mexico - Cancun</ul>
+          <ul>New York - Albany</ul><ul>Virginia - Richmond</ul><ul>Miami - Florida</ul>
+        </menu>
+        <button class="scam" type="button">CLICK HERE</button
+          >
+          <!-- animate on click -->
+          <button class="exit" type="button">EXIT</button
+            ><i class="fa fa-bars fa-2x menu"></i>
 
         <h2><i class="fa fa-arrows-v"></i> Useful Links</h2>
         <a href="#">Vacation Planning</a>
@@ -34,5 +47,11 @@
         <i class="fa fa-arrow-right fa-3x"></i>
       </div>
     </div>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+    <script src ="mainCtrl.js" type="text/javascript"></script>
+    <script src ="mainServ.js" type="text/javascript"></script>
+    <script src ="domDir.js" type="text/javascript"></script>
+            </body>
+
 </html>

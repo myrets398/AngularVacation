@@ -1,6 +1,4 @@
-body {
-  margin: 0;
-}
+body {margin: 0;}
 
 h1 {
   margin: 0;
@@ -28,6 +26,7 @@ h1 {
   align-items: center;
   align-content: space-between;
   justify-content: center;
+
 }
 
 .box {
@@ -45,11 +44,12 @@ img {
   top: 30px;
   right: 30px;
 }
-
 .menu {
   position: fixed;
   top: 30px;
   left: 30px;
+  display:none;
+
 }
 a {
   display: block;
